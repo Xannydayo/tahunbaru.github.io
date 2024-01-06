@@ -12,7 +12,7 @@ function App() {
   };
 
   function timeleft() {
-    const newYearDate = new Date('January 1, 2024 00:00:00').getTime();
+    const newYearDate = new Date('January 1, 2025 00:00:00').getTime();
     const nowDate = new Date().getTime();
     const remainingTime = newYearDate - nowDate;
     return remainingTime;
